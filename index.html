@@ -1,0 +1,83 @@
+
+<!Doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="tstyle.css">
+</head>
+<body>
+  <h1 id="title"> Survey Form</h1>
+  <div id="survey">
+  <form name="" action="task2.html">
+
+    <form id="survey-form">
+      <div class="row">
+        <div class="label">
+          <label for="name" id="name-label"><span>*</span>Name:</label>
+        </div>
+        <div class="form-content">
+          <input type="text" id="name" name="name" placeholder=" name" required />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="label">
+          <label for="email" id="email-label"><span>*</span>Email:</label>
+        </div>
+        <div class="form-content">
+          <input type="email" id="email" name="email" placeholder=" email" required />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="label">
+          <label for="age" id="number-label">Age:</label>
+        </div>
+        <div class="form-content">
+          <input type="text" id="number" name="age" placeholder="Age"/>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="label">
+          <label for="coder"> Will you recommend this college to others?</label>
+        </div>
+        <div class="form-content">
+          <input type="radio" name="coder" value="yes">Yes <br />
+          <input type="radio" name="coder" value="no">No <br />
+          
+        </div>
+      </div>
+
+      
+      <div class="row">
+        <div class="label">
+          <label for="languages"> Which languages do you know?</label>
+        </div>
+        <div class="form-content">
+          <input type="checkbox" name="language1" value="html">HTML/CSS<br />
+          <input type="checkbox" name="language2" value="html">PHP<br />
+          <input type="checkbox" name="language3" value="html">Javascript<br />
+          <input type="checkbox" name="language4" value="html">Java<br />
+          <input type="checkbox" name="language5" value="html">C++<br />
+          
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="label">
+          <label for="best" id="best">Please provide us with additional feedback on areas that need improvement</label>
+        </div>
+        <div class="form-content">
+          <textarea rows="20" cols="60">
+            FEEDBACK
+          </textarea>
+        </div>
+      </div>
+      
+      <div class="submit-row">
+          <input type="submit" value="submit" id="submit" />
+      </div>
+    </form>
+    </div>
+</body>
+</html>
